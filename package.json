@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "puppeteer-core": "^1.15.0"
+  },
+  "name": "puppeteer",
+  "description": "验证码之所以存在，其实就是要区别出“人”和“机器”。特别的，对于滑动验证码，需要根据滑动的动作判断出操作者是人与否。这显然是与自动化测试是矛盾的\r #### 分析\r 解决这个问题的关键点在于两点：  \r - 准确地识别出验证码需要滑到的位置\r - 以符合人类规律的形式把滑块滑到正确的位置",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2445050242/puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2445050242/puppeteer/issues"
+  },
+  "homepage": "https://github.com/2445050242/puppeteer#readme"
+}
